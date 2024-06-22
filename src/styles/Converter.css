@@ -14,9 +14,9 @@
 .hero-wrap {
     display       : flex;
     flex-direction: column;
-    margin        : 2em .3em;
+    margin        : 2em;
     gap           : .4em;
-    text-align    : left;
+    text-align    : center;
 }
 
 .hero-wrap h1 {
@@ -30,7 +30,7 @@
 }
 
 .hero-wrap p {
-    margin: 0 0 0 5px;
+    margin: 0;
     color : #d6d6d6e6;
 }
 
