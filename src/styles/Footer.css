@@ -1,0 +1,13 @@
+.footer-wrap {
+    display        : flex;
+    flex-direction : column;
+    align-items    : center;
+    justify-content: center;
+    color          : #c2c2c2;
+    padding-bottom : 1em;
+}
+
+.footer-wrap a {
+    color          : whitesmoke;
+    text-decoration: none;
+}
