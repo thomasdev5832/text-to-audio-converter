@@ -55,7 +55,7 @@ const Converter = () => {
     <div className="container">
       <div className="hero-wrap">
         <h1>
-        Speakify
+        AudioText
         </h1>
         <p>Simple, easy and fast audio to text converter!</p>
       </div>

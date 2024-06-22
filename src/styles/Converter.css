@@ -89,6 +89,7 @@
     color        : black;
     font-weight  : bold;
     cursor       : pointer;
+    border       : none;
 }
 
 #selecao-voz p {
@@ -133,6 +134,7 @@ button {
     font-weight    : bold;
     background     : #DBF227;
     gap            : .2em;
+    border         : none;
 }
 
 @media (max-width: 600px) {}
