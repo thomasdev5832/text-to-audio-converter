@@ -5,6 +5,7 @@
     justify-content: center;
     color          : #c2c2c2;
     padding-bottom : 1em;
+    margin-top     : auto;
 }
 
 .footer-wrap a {
