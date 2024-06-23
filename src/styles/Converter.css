@@ -20,13 +20,15 @@
 }
 
 .hero-wrap h1 {
-    margin        : 0;
-    max-width     : 280px;
-    font-size     : 54px;
-    line-height   : .9;
-    font-weight   : 200;
-    text-transform: uppercase;
-    color         : #DBF227;
+    margin                 : 0;
+    font-size              : 54px;
+    line-height            : .9;
+    font-weight            : 200;
+    text-transform         : uppercase;
+    background             : linear-gradient(135deg, #DBF227, #a4f227);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .hero-wrap p {
@@ -82,14 +84,18 @@
     border-radius: 6px;
 }
 
+#upload-arquivo:hover {
+    border: 1px solid #a4f227;
+}
+
 #selecao-voz {
     padding      : 15px 20px;
     border-radius: 6px;
-    background   : #DBF227;
-    color        : black;
     font-weight  : bold;
     cursor       : pointer;
     border       : none;
+    color        : black;
+    background   : linear-gradient(180deg, #dbf227 0%, #a4f227 100%);
 }
 
 #selecao-voz p {
@@ -132,9 +138,19 @@ button {
     border-radius  : 6px;
     color          : black;
     font-weight    : bold;
-    background     : #DBF227;
     gap            : .2em;
     border         : none;
+    background     : linear-gradient(180deg, #dbf227 0%, #a4f227 100%);
+}
+
+button:hover {
+    background: #a4f227;
+}
+
+button.disabled {
+    background-color: #cccccc;
+    color           : #666666;
+    cursor          : not-allowed;
 }
 
 @media (max-width: 600px) {}

@@ -11,3 +11,7 @@
     color          : whitesmoke;
     text-decoration: none;
 }
+
+.footer-wrap a:hover {
+    color: #a4f227;
+}
